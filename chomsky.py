@@ -134,7 +134,7 @@ if __name__ == "__main__":
             a = Chomsky(times, line_length)
             print a
         else:
-            print 'Usage: python chomsky.py <sentences> <paragraph width>'
-    except IndexError, ValueError:
-        print 'Usage: python chomsky.py <sentences> <paragraph width>'
+            print 'Usage: python chomsky.py <number of sentences> <paragraph screen width>'
+    except:
+        print 'Usage: python chomsky.py <number of sentences> <paragraph screen width>'
 
